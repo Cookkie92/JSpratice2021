@@ -1,2 +1,2 @@
-console.log("Hello, world!");
-console.log("test");
+var firstName ="Kristian";
+var nameContainer = document.querySelector("#name")
