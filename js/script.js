@@ -1,3 +1,6 @@
+
+//Module Assignment 1
+
 //Question 1
 
 var $num = 7;
@@ -37,3 +40,40 @@ else{
 for (var i = 7; i <=13; i++){
     //console.log(i);
 }
+
+
+
+
+//Module Assignment 2
+
+//question 1
+
+var age=4;
+
+var pets = [
+    {
+        type: "cat",
+        age: 5.5,
+    },
+    {
+        type:"dog",
+        age: 3.8,
+    },
+    {
+        type:"parrot",
+        age:4.0,
+    },
+];
+
+
+for(var i = 0; i <pets.length; i++){
+    console.log(i);
+    var item =pets[i];
+    
+    console.log(item);
+}
+
+
+
+
+
