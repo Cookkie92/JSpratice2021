@@ -44,11 +44,22 @@ for (var i = 7; i <=13; i++){
 
 
 
+
+
+
+
+
+
+
+
+
+
 //Module Assignment 2
 
-//question 1
 
-var age=4;
+
+
+//question 1
 
 var pets = [
     {
@@ -65,13 +76,57 @@ var pets = [
     },
 ];
 
-
-for(var i = 0; i <pets.length; i++){
-    console.log(i);
-    var item =pets[i];
-    
-    console.log(item);
+for(var i = 0; i < pets.length; i++){
+    if(pets[i].age >= 4) {
+        //console.log(pets[i].type)
+    }
 }
+
+
+
+
+
+//Question 2
+
+//declare function
+function boolValue(argue) {
+    if(argue === true) {
+        //console.log(argue)
+    }
+    else if(argue === false){
+        //console.log(argue)
+    }
+     else{
+        //console.log("Please pass a boolean value in")
+    }
+
+}
+//call function
+//boolValue();
+
+
+
+
+
+
+
+//Question 3
+
+var headline = document.querySelector("h2");
+var button = document.querySelector("button");
+
+function changeHeadline (){
+    headline.innerHTML = "Updated Subheading";
+    headline.style.color = "blue";
+}
+
+button.onclick = changeHeadline;
+
+
+
+
+
+
 
 
 

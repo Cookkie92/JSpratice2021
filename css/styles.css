@@ -34,3 +34,17 @@ nav li {
   text-align: center;
   padding: 10px;
 }
+.start-btn {
+  background-color: #1e90ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  display: inline-block;
+  font-weight: bold;
+}
