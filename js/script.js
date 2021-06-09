@@ -13,7 +13,7 @@ var $str ="Very nice";
 
 var name = "Kristian";
 var lastName ="Koloy";
-var fullName = (name+lastName)
+var fullName = (name + lastName)
 
 //console.log(fullName)
 
@@ -90,12 +90,12 @@ for(var i = 0; i < pets.length; i++){
 
 //declare function
 function boolValue(argue) {
-    if(argue === true) {
+    if(argue === true || argue === false) {
         //console.log(argue)
     }
-    else if(argue === false){
+    //else if(argue === false){
         //console.log(argue)
-    }
+    //}
      else{
         //console.log("Please pass a boolean value in")
     }
@@ -112,15 +112,15 @@ function boolValue(argue) {
 
 //Question 3
 
-//var headline = document.querySelector("h2");
-//var button = document.querySelector("button");
+var headline = document.querySelector("h2");
+var button = document.querySelector("button");
 
-//function changeHeadline (){
-    //headline.innerHTML = "Updated Subheading";
-    //headline.style.color = "blue";
-//}
+function changeHeadline (){
+    headline.innerHTML = "Updated Subheading";
+    headline.style.color = "blue";
+}
 
-//button.onclick = changeHeadline;
+button.onclick = changeHeadline;
 
 
 
@@ -145,7 +145,7 @@ else{
 
 for (var i = 15; i <=25; i++){
     if(i === 17 || i === 20 ){ 
-        //console.log(i);   
+        console.log(i);   
     }
 }
 
