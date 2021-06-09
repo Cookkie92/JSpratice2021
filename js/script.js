@@ -112,15 +112,89 @@ function boolValue(argue) {
 
 //Question 3
 
-var headline = document.querySelector("h2");
-var button = document.querySelector("button");
+//var headline = document.querySelector("h2");
+//var button = document.querySelector("button");
 
-function changeHeadline (){
-    headline.innerHTML = "Updated Subheading";
-    headline.style.color = "blue";
+//function changeHeadline (){
+    //headline.innerHTML = "Updated Subheading";
+    //headline.style.color = "blue";
+//}
+
+//button.onclick = changeHeadline;
+
+
+
+//Javascript CA1
+
+
+//Question 1
+
+
+var outOfStock = true;
+
+if(outOfStock === true){
+    //console.log("Out of stock");
+}
+else{
+    //console.log("In stock");
 }
 
-button.onclick = changeHeadline;
+
+//Question 2 // Ikke ferdig
+var trueNumbers = 17
+var trueNumbers2 = 20
+for (var i = 15; i <=25; i++){
+    if(i === 17 || 20 ){
+        console.log(17, 20);
+    }
+    else{
+        console.log(i)
+    }
+}
+
+
+
+
+
+
+//Question 3
+
+var games = [
+	{
+		title: "Grand Theft Auto",
+		rating: 4.48,
+	},
+	{
+		title: "Portal 2",
+		rating: 3.5,
+	},
+	{
+		title: "Team Fortress",
+		rating: null,
+	},
+	{
+		title: "The Witcher",
+		rating: 3.0,
+	},
+	{
+		title: "The Elder Scrolls",
+		rating: 2.9,
+	},
+];
+
+
+
+
+
+
+
+
+
+
+//Question 4
+
+
+
 
 
 
