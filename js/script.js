@@ -140,15 +140,12 @@ else{
 }
 
 
-//Question 2 // Ikke ferdig
-var trueNumbers = 17
-var trueNumbers2 = 20
+//Question 2
+
+
 for (var i = 15; i <=25; i++){
-    if(i === 17 || 20 ){
-        console.log(17, 20);
-    }
-    else{
-        console.log(i)
+    if(i === 17 || i === 20 ){ 
+        //console.log(i);   
     }
 }
 
